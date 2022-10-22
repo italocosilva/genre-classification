@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-10-22T14:14:44.179109",
+    "startedAt": "2022-10-22T14:14:41.764803",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "split_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "src/segregate/run.py",
+    "git": {
+        "remote": "https://github.com/italocosilva/genre-classification.git",
+        "commit": "23cc50e3dccf12e962b3e637c652fa3add9f20a1"
+    },
+    "email": "italocosilva@gmail.com",
+    "root": "/root/genre-classification",
+    "host": "DESKTOP-2SVRE5B",
+    "username": "root",
+    "executable": "/root/miniconda3/envs/mlflow-56c046ba10f6dde5ee905f13a37ddbe1466c0012/bin/python"
+}
