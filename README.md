@@ -14,5 +14,5 @@ You can run the entire pipeline with a configured Weights and Biases account and
 
 To run use on the root of the project:
 ```console
-mlflow run ./src
+mlflow run .
 ```
